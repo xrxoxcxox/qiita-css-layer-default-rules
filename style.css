@@ -20,6 +20,8 @@
   color: darkblue;
 }
 
-.text-alternate {
-  color: darkgoldenrod;
+@layer alternate {
+  .text-alternate {
+    color: darkgoldenrod;
+  }
 }
