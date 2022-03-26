@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: fit-content;
+  margin: auto;
+  min-height: 100vh;
+  padding: 2rem;
+  width: min(100%, 40ch);
+}
+
+.container > * + * {
+  margin-top: 1rem;
+}
+
+.container .text {
+  color: darkblue;
+}
+
+.text-alternate {
+  color: darkgoldenrod;
+}
